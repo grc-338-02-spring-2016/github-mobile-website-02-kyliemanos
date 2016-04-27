@@ -1,0 +1,33 @@
+
+
+ul {
+        list-style-type:none;
+            width: 100%;
+        }
+        
+        ul li {
+        float: left;
+        width: 24%;
+        height: 3.5em;
+        background-color: rgba(255, 255, 255, 0.75);
+        border-left: .1em solid dimgrey;
+        border-bottom: .1em solid dimgrey;
+        border-top: .1em solid dimgrey;
+        
+    
+        
+    }
+         ul li a {
+        text-decoration: none;
+        display: block;
+        padding: 1.2em 0 0 0;       
+        font-family: sans-serif;
+        font-size: .5 em;
+        text-align: center;
+        color: dimgrey;
+    }
+a:hover {
+        background-color: dimgray;
+        color: white;
+        padding: 1.2em 1.2em 1.3em 1.2em;
+    }
