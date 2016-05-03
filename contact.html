@@ -15,6 +15,26 @@
     <link href="styles/stylesheet.css" type="text/css" rel="stylesheet">
     
  <style>
+     
+        h1{ color: #a990de;
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 2em;
+        font-style: normal; 
+        margin-top: 4em;
+        margin-bottom: 1.2em;
+        }
+     
+     .input{
+         border-color: dimgrey;
+         color: dimgray;
+         font-family: sans-serif;
+         text-align: left;
+         line-height: 1.7em;
+         font-size: .9em;
+         margin-left: 3em;
+         
+     }
     
 </style>   
     
@@ -36,7 +56,28 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        
+    <h1>Contact Me</h1>    
     </div>
+  
+<!--How do I make this code send to my email?-->
+    
+    <div class="input">
+    
+    <form action="action_page.php">
+    Name:<br>
+    <input type="text" name="firstname" >
+    <br>
+    Email:<br>
+    <input type="text" name="email" >
+    <br>
+    Message:<br>
+    <input type="text" name="message" >
+    <br>
+    <br>
+    <input type="submit" value="Send">
+    </form> 
+
+        
+</div>
     
     </body>
