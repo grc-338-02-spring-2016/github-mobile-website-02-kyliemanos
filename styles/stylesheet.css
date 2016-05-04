@@ -1,23 +1,29 @@
 
+.container {
+    width:100%;
+    margin:0 auto;  
+}
+.
 
-ul {
+nav ul {
         list-style-type:none;
             width: 100%;
         }
         
-        ul li {
+        nav ul li {
         float: left;
-        width: 24%;
+        width: 24.5%;
         height: 3.5em;
         background-color: rgba(255, 255, 255, 0.75);
         border-left: .1em solid dimgrey;
         border-bottom: .1em solid dimgrey;
         border-top: .1em solid dimgrey;
+       
         
     
         
     }
-         ul li a {
+       nav ul li a {
         text-decoration: none;
         display: block;
         padding: 1.2em 0 0 0;       
@@ -26,7 +32,7 @@ ul {
         text-align: center;
         color: dimgrey;
     }
-a:hover {
+nav a:hover {
         background-color: dimgray;
         color: white;
         padding: 1.2em 1.2em 1.3em 1.2em;
