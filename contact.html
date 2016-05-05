@@ -13,28 +13,62 @@
     <!--Reset stylesheet removes browser stylesheet default settings-->
     <link href="styles/reset.css" type="text/css" rel="stylesheet">
     <link href="styles/stylesheet.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     
  <style>
      
-        h1{ color: #a990de;
+     body{
+         background-color: dimgray;
+     }
+     
+        h1{ color: white;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
         font-family: sans-serif;
         text-align: center;
         font-size: 2em;
         font-style: normal; 
-        margin-top: 4em;
-        margin-bottom: 1.2em;
+        margin-top: 3em;
+        margin-bottom: 1em;
         }
      
-     .input{
-         border-color: dimgrey;
-         color: dimgray;
-         font-family: sans-serif;
-         text-align: left;
-         line-height: 1.7em;
-         font-size: .9em;
-         margin-left: 3em;
+     h2{ 
+     background-color: white;
+     width: 70%;
+     padding: 1em;
+     color: dimgray;
+     font-family:sans-serif;
+     text-align: center;
+     font-size: 1em;
+     margin:auto;
+     line-height: 1.3em}
+     
+     .contact a{ 
+      color:dimgray;
+      background-color: white;
+      font-family: sans-serif;
+      font-size: 1.6em;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      border: .5px solid white;
+      width: 40%;
+      margin:auto;
+      margin-top: 1em;
+      padding: .5em;
+    
+        
+
+
          
      }
+     
+     
+     
+
+     
+   
     
 </style>   
     
@@ -49,7 +83,6 @@
            
         </div>
 
-        
 
         <nav>
             <ul>
@@ -62,59 +95,19 @@
     <h1>Contact Me</h1>    
     </div>
     
-    <form action="takeform.php" method="POST">
-<p>
-<input
-name="email"
-size="64"
-maxlength="64"/>
-<b>Your</b> Email Address
-</p>
-<p>
-<input
-name="Name"
-size="64"
-maxlength="64"/>
-</p>
-<p>
-<input
-name="subject"
-size="64"
-maxlength="64"/>
-Subject Of Your Message
-</p>
-<p>
-<i>Please enter the text of your message in the field that follows.</i>
-</p>
-<textarea
-name="body"
-rows="10"
-cols="60">
-</textarea>
-<p>
-<input type="submit" name="send" value="Send Your Message"/>
-</p>
-</form>
-  
-<!--How do I make this code send to my email-->
+<!--    <h2>You can get to know me better by clicking through my linkedIn or resume. Shoot me an email if you have any questions or want to talk!-->
+<!--    </h2>-->
     
-<!--    <div class="input">-->
-    
-<!--    <form action="action_page.php">-->
-<!--    Name:<br>-->
-<!--    <input type="text" name="firstname" >-->
-<!--    <br>-->
-<!--    Email:<br>-->
-<!--    <input type="text" name="email" >-->
-<!--    <br>-->
-<!--    Message:<br>-->
-<!--    <input type="text" name="message" >-->
-<!--    <br>-->
-<!--    <br>-->
-<!--    <input type="submit" value="Send">-->
-<!--    </form> -->
-
+    <div class="contact">
         
-<!--</div>-->
+    <a href="images/web-resume.pdf" target="_blank"class="link"> Resume </a>
+        
+    <a href="https://www.linkedin.com/in/kylie-manos-63529a87" target="_blank" class="link"> LinkedIn </a>
+        
+    <a href="mailto:kmanos01@gmail.com"class="link"> Email </a>  
+    
+    </div>
     
     </body>
+
+</html>
