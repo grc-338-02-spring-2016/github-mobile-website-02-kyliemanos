@@ -14,23 +14,22 @@ nav ul {
         float: left;
         width: 24.5%;
         height: 3.5em;
-        background-color: rgba(255, 255, 255, 0.75);
-        border-left: .1em solid dimgrey;
-        border-bottom: .1em solid dimgrey;
-        border-top: .1em solid dimgrey;
-       
+        background-color: dimgray;
+        border-right: .1em solid white;
         
-    
+        
         
     }
-       nav ul li a {
+    
+
+nav ul li a {
         text-decoration: none;
         display: block;
         padding: 1.2em 0 0 0;       
-        font-family: sans-serif;
+        font-family: 'Work Sans', sans-serif;
         font-size: .5 em;
         text-align: center;
-        color: dimgrey;
+        color: white;
     }
 nav a:hover {
         background-color: dimgray;
