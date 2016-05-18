@@ -4,61 +4,67 @@
 
 <head>
     
-    <meta charset="utf-8">
-    <title>Kylie's Mobile site</title>
-     
-    <!--Detects device width-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kylie Manos | Home</title>
     
-    <!--Reset stylesheet removes browser stylesheet default settings-->
+<!-- Meta Zone -->
+    <meta charset="utf-8">
+    <meta name="description" content="Kylie Manos" />
+    
+<!--Detects device width-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    
+<!--Reset stylesheet -->
     <link href="styles/reset.css" type="text/css" rel="stylesheet">
-<!--    this connects to the main stylesheet of the site-->
+    
+<!-- CSS Stylesheets -->
     <link href="styles/stylesheet.css" type="text/css" rel="stylesheet">
-<!--    this is the link to a font used from google fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,200' rel='stylesheet' type='text/css'>
+
+<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+    
+<!-- Favicon -->
+	<link rel="shortcut icon" type="image/png" href="img/logogrey.png"/>
     
     
     <style>
-    
-/*        sets the background image to 100%*/
-        img{max-width: 100%}
-            
-        }
+        
         
     </style>
     
 </head> 
    
-<body>
-<!--   there is a container around the entire body -->
-    <div class="container">
-<!--        this is a div class for the header-->
-        <div class="header">
-           
-        <a href="index.html"><img src="images/header.jpg" alt="header"></a>
-       
-         
-        </div>
-        
-<!--  this is the links for the navigation menu-->
-        <nav>
-            <ul>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="https://kyliemanos.carbonmade.com/"><span >PORTFOLIO</span></a></li>
-                <li><a href="travels.html">TRAVELS</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
-        
-<!--        this is the code to position my logo on top of the background image-->
-         <div class="position">
-           <img src="images/lavender-flowers.jpg" style="position: relative; top: 15px; left: 0;"/>
-           <img src="images/logo.png" style="position: absolute; top: 350px; left: 70px;"/>
-        </div>    
-
-    </div>    
-       
-<!--        end of logo div-->
-</body>
+<body id="page">
     
+    <!-- Navigation menu -->
+    <header>
+		<div id="wrap">
+		  	<a href="index.html" title="Home"><img class="logo" src="img/logogrey.png" alt="Logo"/></a>
+		    <nav id="nav">
+		      <ul>
+		        <li><a  href="index.html" title="Home">Home</a></li>
+		        <li><a href="menu.html" title="About">About</a></li>
+		        <li><a class="selected" href="gallery.html" title="Travels">Travels</a></li>
+		        <li><a href="contact.html" title="Contact">Contact</a></li>
+		        <li><a href="https://kyliemanos.carbonmade.com/" title="Portfolio" target="_blank"/><img class="portfolio-header-icon" src="img/folder-icon.png" alt="Portfolio Icon"></a></li>
+		      </ul>
+		    </nav>
+		</div>
+	</header>
+        
+<!--        <div class="background image">-->
+<div class="hero-image-home">
+</div>
+         
+<!-- intro paragraph -->
+<div class="main">
+		<p>My name is Kylie Manos and I am a 3rd year Graphic Communication major. I recently studied abroad Fall of 2015 and traveled throughout Europe. I am interested in Mobile UX/UI design as well as graphic design for print. I hope to increase my knowledge and experience through a dynamic and challenging internship. Fill free to take a look through my website or <a href="https://kyliemanos.carbonmade.com/" title="Portfolio">portfolio</a>.  Enjoy!</p>
+
+	</div>           
+    
+            
+<footer>
+		<p>&copy; 2016 Kylie Manos</p>
+	</footer>
+
+</body>
 </html>
