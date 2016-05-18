@@ -4,11 +4,19 @@
 
 <head>
     
-    <title>Kylie Manos | Home</title>
+    <title>Kylie Manos | Travels</title>
     
 <!-- Meta Zone -->
     <meta charset="utf-8">
-    <meta name="description" content="Kylie Manos" />
+	<meta name="description" content="Kylie Manos" />
+	<meta name="keywords" content="Kylie Manos">
+	<meta name="robots" content="index, follow, all" />
+	<meta name="author" content="Kylie Manos">
+	<meta name="publisher" content="Kylie Manos">
+	<meta name="geo.placename" content="Amsterdam">
+	<meta name="geo.region" content="NL">
+	<meta name="google" content="notranslate" />
+    
     
 <!--Detects device width-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -22,12 +30,17 @@
     
 <!-- CSS Stylesheets -->
     <link href="styles/stylesheet.css" type="text/css" rel="stylesheet">
+    <link href="styles/lightbox.css" type="text/css" rel="stylesheet">
 
 <!-- Font -->
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
     
-<!-- Favicon -->
-	<link rel="shortcut icon" type="image/png" href="img/logogrey.png"/>
+<!-- logo-link -->
+	<link rel="shortcut icon" type="image/png" href="images/logogrey.png"/>
+    
+<!-- Javascript -->
+
+    <script type="text/javascript" src="js/main.js"></script>
     
     
     <style>
@@ -41,37 +54,48 @@
 
 	<header>
 		<div id="wrap">
-		  	<a href="index.html" title="Home"><img class="logo" src="img/logogrey.png" alt="Logo"/></a>
+		  	<a href="index.html" title="Home"><img class="logo" src="images/logogrey.png" alt="Logo"/></a>
 		    <nav id="nav">
 		      <ul>
-		        <li><a  href="index.html" title="Home">Home</a></li>
-		        <li><a href="menu.html" title="About">About</a></li>
+		        <li><a class="selected" href="index.html" title="Home">Home</a></li>
+                
+		        <li><a class="selected" href="menu.html" title="About">About</a></li>
+                
 		        <li><a class="selected" href="gallery.html" title="Travels">Travels</a></li>
-		        <li><a href="contact.html" title="Contact">Contact</a></li>
-		        <li><a href="https://kyliemanos.carbonmade.com/" title="Portfolio" target="_blank"/><img class="portfolio-header-icon" src="img/folder-icon.png" alt="Portfolio Icon"></a></li>
+                
+		        <li><a class="selected" href="contact.html" title="Contact">Contact</a></li>
+                
+		        <li><a href="https://kyliemanos.carbonmade.com/" title="Portfolio" target="_blank"/><img class="portfolio-header-icon" src="images/folder-icon.png" alt="Portfolio Icon"> </a> </li>
 		      </ul>
 		    </nav>
 		</div>
 	</header>
+
+<div class="hero-image-gallery">
+	</div>
+
     
-    <div class="images">
+    <div class="main">
+
+		<p>These are a few of the many advetures from my study abroad experience in Florence, Italy.</p>
+
+		<hr>
+		</br>
+	  <section>
+	    <div>
+	   <a class="example-image-link" href="images/image1.jpg" data-lightbox="example-set"><img class="example-image" src="images/florence-resized.jpg"/></a><a class="example-image-link" href="images/image2.JPG" data-lightbox="example-set"><img class="example-image" src="images/almafi1-resized.jpg"/></a><a class="example-image-link" href="images/image3.JPG" data-lightbox="example-set"><img class="example-image" src="images/almafi2-resized.jpg"/></a><a class="example-image-link" href="images/image4.JPG" data-lightbox="example-set"><img class="example-image" src="images/luca-resized.jpg"/></a><a class="example-image-link" href="images/image5.JPG" data-lightbox="example-set"><img class="example-image" src="images/greece-resized.jpg"/></a><a class="example-image-link" href="images/image6.JPG" data-lightbox="example-set"><img class="example-image" src="images/greece2-resized.jpg"/></a><a class="example-image-link" href="images/image7.JPG" data-lightbox="example-set"><img class="example-image" src="images/greece3-resized.jpg"/></a><a class="example-image-link" href="images/image8.JPG" data-lightbox="example-set"><img class="example-image" src="images/paintings-resized.jpg"/></a><a class="example-image-link" href="images/image9.JPG" data-lightbox="example-set"><img class="example-image" src="images/pisa-resized.jpg"/></a><a class="example-image-link" href="images/image10.jpg" data-lightbox="example-set"><img class="example-image" src="images/paris-resized.jpg"/></a><a class="example-image-link" href="images/imaage11.JPG" data-lightbox="example-set"><img class="example-image" src="images/lemonchello-resized.jpg"/></a><a class="example-image-link" href="images/image12.jpg" data-lightbox="example-set"><img class="example-image" src="images/duomo-resized.jpg"/></a>
+            
+            
+	    </div>
+	  </section>
+	</div>
     
-        <img src="images/almafi1-resized.jpg" alt="Almafi Cave">
-        <img src="images/duomo-resized.jpg" alt="Duomo">
-        <img src="images/florence-resized.jpg" alt="florence">
-        <img src="images/greece-resized.jpg" alt="greece sunset">
-        <img src="images/greece2-resized.jpg" alt="Athens">
-        <img src="images/greece3-resized.jpg" alt="Athens">
-        <img src="images/greece4-resized.jpg" alt="Athens">
-        <img src="images/lemonchello-resized.jpg" alt="lemonchello">
-        <img src="images/luca-resized.jpg" alt="Luca">
-        <img src="images/paintings-resized.jpg" alt="Paintings">
-        <img src="images/paris-resized.jpg" alt="paris">
-        <img src="images/pisa-resized.jpg" alt="Pisa">
-        <img src="images/venice-resized.jpg" alt="Venice"> 
-        <img src="images/almafi-resized.jpg" alt="Almafi Mountains">
-     </div>
-        
-    </div>
     
+    <footer>
+		<p>&copy; 2016 Kylie Manos</p>
+	</footer>
+
+	<!-- <script src="js/lightbox.js"></script> -->
+
 </body>
+</html>
