@@ -148,7 +148,7 @@ header .portfolio-header-icon {
 
 /* Main Images */
 
-.hero-image-home {
+.image-home {
 	width: 100%;
 	height: 350px;
     background-color: #f3f3f3;
@@ -158,7 +158,7 @@ header .portfolio-header-icon {
 	overflow: hidden;
 }
 
-.hero-image-about{
+.image-about{
     width: 100%;
     height: 350px;
     background-color: #f3f3f3;
@@ -168,7 +168,7 @@ header .portfolio-header-icon {
     overflow: hidden;
 }
 
-.hero-image-gallery {
+.image-gallery {
     width: 100%;
     height: 350px;
     background-color: #f3f3f3;
@@ -178,7 +178,7 @@ header .portfolio-header-icon {
     overflow: hidden;
 }
 
-.hero-image-contact {
+.image-contact {
     width: 100%;
     height: 350px;
     background-color: #f3f3f3;
@@ -234,37 +234,22 @@ header .portfolio-header-icon {
     text-transform: uppercase;
     font-size: 13px;
     line-height: 55px;
-    text-align: center   
+    text-align: center;
+    margin-bottom: 2px;
+    
 }
 
 .contact ul li{
-    display:block;
-    float: left;
-    margin-bottom: 70px;
-    
-    
+   display:block;
+   float:left;
+margin-bottom: 50px;
 }
 
 .contact li{
     width:33.3%;
+   float: left;
 }
 
-
-
-/* Footer */
-footer {
-	text-align: center;
-	background-color: #f3f3f3;
-	height: 80px;
-}
-
-footer p {
-	font-size: 13px;
-	color: #aaa;
-	letter-spacing: 0;
-	line-height: 80px;
-	margin-bottom: 0;
-}
 
 
 /* links */
@@ -275,6 +260,7 @@ footer p {
 
 #links ul li {
     text-align: center;
+    margin-bottom: 18px;
 }
 
 #links ul li a{
@@ -284,6 +270,24 @@ footer p {
     font-size: 13px;
     padding-top: 0px;
 }
+
+
+/* Footer */
+footer {
+	text-align: center;
+	background-color: #f3f3f3;
+	height: 80px;
+    clear:both;
+}
+
+footer p {
+	font-size: 13px;
+	color: #aaa;
+	letter-spacing: 0;
+	line-height: 80px;
+	margin-bottom: 0;
+}
+
 
 @media screen and (max-width: 780px){
   header {
